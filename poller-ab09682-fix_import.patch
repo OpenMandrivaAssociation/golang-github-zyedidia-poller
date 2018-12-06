@@ -1,0 +1,12 @@
+diff -up poller-ab09682913b79f402713d1df1977dedc19eb25ac/echo_test.go.fix_import poller-ab09682913b79f402713d1df1977dedc19eb25ac/echo_test.go
+--- poller-ab09682913b79f402713d1df1977dedc19eb25ac/echo_test.go.fix_import	2017-09-29 21:14:31.300132500 +0200
++++ poller-ab09682913b79f402713d1df1977dedc19eb25ac/echo_test.go	2017-09-29 21:14:58.703061776 +0200
+@@ -30,7 +30,7 @@ import (
+ 	"testing"
+ 	"time"
+ 
+-	"github.com/npat-efault/poller"
++	"github.com/zyedidia/poller"
+ )
+ 
+ const (
